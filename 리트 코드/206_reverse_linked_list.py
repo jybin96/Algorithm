@@ -3,6 +3,7 @@ class ListNode:
         self.val = val
         self.next = next
 
+
 def reverseList(head: ListNode) -> ListNode:
     node, prev = head, None
 
