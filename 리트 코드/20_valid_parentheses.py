@@ -5,7 +5,6 @@ table = {
     '}': '{',
     ']': '['
 }
-print(not stack)
 for char in s:
     if char not in table:
         stack.append(char)
